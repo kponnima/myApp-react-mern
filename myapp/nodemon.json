@@ -1,0 +1,28 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    ".git",
+    ".vscode",
+    ".editorconfig",
+    "angular.json",
+    "browserslist",
+    "tsconfig.json",
+    "tslint.json",
+    "mongo-db",
+    "node_modules/**/node_modules",
+    "reports",
+    "screenshots",
+    "test",
+    "src/**/*"
+  ],
+  "verbose": true,
+  "watch": [
+    "server.js",
+    "routes/**/*",
+    "models/**/*"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "js json"
+}
